@@ -379,4 +379,10 @@
   .sidebar-label {
     @apply text-16 font-semibold text-black-2 max-xl:hidden;
   }
+
+  @media (max-width: 465px) {
+    .mob-w {
+      @apply gap-4;
+    }
+  }
 }
